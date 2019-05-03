@@ -28,7 +28,7 @@ Run the listener
 
 `rosrun test listener.py`
 
-Press one on of the buttons and the output might look like:
+Press one one of the buttons and the output might look like:
 
 ```
 pi@raspberrypi:~/catkin_ws/src/test/scripts $ rosrun test listener.py 
