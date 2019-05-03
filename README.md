@@ -2,7 +2,7 @@
 
 ## Raspberry PI setup.
 
-Put switches on pins 18 and 24 on a breadboard.
+Put simple push switches on pins 18 and 24 on a breadboard.
 
 ## ROS needs to be set up on the Raspberry PI
 
