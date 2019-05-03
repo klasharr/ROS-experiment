@@ -20,6 +20,7 @@ Run the ROS OS.
 `roscore`
 
 Run the talker
+
 `rosrun test talker.py`
 
 Run the listener
