@@ -17,6 +17,7 @@ See in the scripts directory. The code is based on tutorial [code](http://wiki.r
 Each in three shells:
 
 Run the ROS OS.
+
 `roscore`
 
 Run the talker
