@@ -22,7 +22,7 @@ I created a new ROS package first as explained [here](http://wiki.ros.org/catkin
 
 ## To Run
 
-ROS has a mechanism for making launch files to simplify this but the absolute simplest way to test this is to run the following in three separate shells:
+You can configure a [launch file](http://wiki.ros.org/roslaunch), but the simplest way to test this is to run the following in three separate shells:
 
 Run the ROS OS.
 
@@ -64,7 +64,9 @@ e.g. instead of just outputting:
 
 logic could be triggered to drive a motor. With a more complicated robot, this would be ideal to keep the application simple and all parts decoupled.
 
-## Useful book
+## Resources
 
+https://www.ros.org/ 
+http://wiki.ros.org/rospy - ROS Python client
 [Raspberry Pi cookbook](http://shop.oreilly.com/product/0636920045182.do)
 
