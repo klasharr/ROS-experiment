@@ -66,7 +66,7 @@ logic could be triggered to drive a motor. With a more complicated robot, this w
 
 ## Resources
 
-https://www.ros.org/ 
-http://wiki.ros.org/rospy - ROS Python client
-[Raspberry Pi cookbook](http://shop.oreilly.com/product/0636920045182.do)
+- https://www.ros.org/ 
+- http://wiki.ros.org/rospy - ROS Python client
+- [Raspberry Pi cookbook](http://shop.oreilly.com/product/0636920045182.do)
 
