@@ -1,4 +1,4 @@
-# Experiments with ROS, Raspberry PI and Python
+# Experiment with ROS, Raspberry PI and Python
 
 ## Raspberry PI setup.
 
