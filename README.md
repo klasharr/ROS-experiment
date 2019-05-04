@@ -22,7 +22,11 @@ I created a new ROS package first as explained [here](http://wiki.ros.org/catkin
 
 ## To Run
 
-You can configure a [launch file](http://wiki.ros.org/roslaunch), but the simplest way to test this is to run the following in three separate shells:
+You can configure a [launch file](http://wiki.ros.org/roslaunch/XML#Example_.launch_XML_Config_Files) [#](http://wiki.ros.org/roslaunch), but the simplest way to test this is to run the following in three separate shells:
+
+All from within catkin workspace directory:
+
+`/home/pi/catkin_ws/`
 
 Run the ROS OS.
 
