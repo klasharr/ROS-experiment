@@ -80,7 +80,7 @@ e.g. instead of just outputting data in the listener like this:
 [INFO] [1556918464.778167]: heading 330
 ```
 
-logic could be triggered to drive a motor, move a servo or trigger a solenoid. With a more complicated robot, this would be ideal to keep the application simple and all parts decoupled.
+logic could be triggered to drive a motor, move a servo or trigger a solenoid. With a more complicated robot, ROS is ideal to keep the application simple and all parts decoupled.
 
 ## Resources
 
