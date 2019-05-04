@@ -10,6 +10,12 @@ Put simple push switches on pins 18 and 24 on a breadboard.
 
 http://wiki.ros.org/ROS/Installation
 
+If anything doesn't work, it's most likely to be an environment variables issue, e.g. for me this solved packages not being found.
+
+`export ROS_PACKAGE_PATH=/home/pi/catkin_ws/src:$ROS_PACKAGE_PATH` 
+
+Also, I only installed the shell version, not the full desktop version.
+
 ## The Python code
 
 I created a new ROS package first as explained [here](http://wiki.ros.org/catkin/Tutorials/CreatingPackage), the python scripts live in the [scripts](https://github.com/klasharr/auto_boat/tree/master/test/scripts) directory. This is all you need to write. The code is based on this tutorial [code](http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28python%29).
