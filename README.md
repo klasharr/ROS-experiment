@@ -71,7 +71,7 @@ pi@raspberrypi:~/catkin_ws/src/test/scripts $ rosrun test listener.py
 
 ## What's next?
 
-In this example, we see ROS decoupling sensor reading code from the action code. It would be possible to add more hardware to the PI, and write more publisher / subscriber code. See more on [publishers and subscribers](http://wiki.ros.org/roscpp/Overview/Publishers%20and%20Subscribers). 
+In this example, we see ROS decoupling sensor reading code from the action code. It would be possible to add more hardware to the PI and tie it all together with more publisher / subscriber code and custom logic. See more on [publishers and subscribers](http://wiki.ros.org/roscpp/Overview/Publishers%20and%20Subscribers). 
 
 e.g. instead of just outputting data in the listener like this:
 
