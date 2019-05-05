@@ -8,9 +8,9 @@ Put simple push switches on pins 18 and 24 on a breadboard.
 
 ## Raspberry PI ROS installation
 
-http://wiki.ros.org/ROS/Installation
+Follow the instructions over [here](http://wiki.ros.org/ROS/Installation).
 
-If anything doesn't work, it's most likely to be an environment variables issue, e.g. for me this solved packages not being found.
+If something fails, it'll most likely to be an environment variable issue, e.g. for me this solved packages not being found.
 
 ```
 export ROS_PACKAGE_PATH=/home/pi/catkin_ws/src:$ROS_PACKAGE_PATH
@@ -71,7 +71,7 @@ pi@raspberrypi:~/catkin_ws/src/test/scripts $ rosrun test listener.py
 
 ## What's next?
 
-In this example, we see ROS decoupling sensor reading code from the action code. It would be possible to add more hardware to the PI and tie it all together with more publisher / subscriber code and custom logic. See more on [publishers and subscribers](http://wiki.ros.org/roscpp/Overview/Publishers%20and%20Subscribers). 
+In this example, we see ROS decoupling sensor reading code from the action code. It would be possible to add more hardware to the PI and wire it together with more publisher/subscriber code and custom logic. See more on [publishers and subscribers](http://wiki.ros.org/roscpp/Overview/Publishers%20and%20Subscribers). 
 
 e.g. instead of just outputting data in the listener like this:
 
@@ -87,4 +87,5 @@ logic could be triggered to drive a motor, move a servo or trigger a solenoid. W
 - https://www.ros.org/ 
 - http://wiki.ros.org/rospy - ROS Python client
 - [Raspberry Pi cookbook](http://shop.oreilly.com/product/0636920045182.do)
-
+- My GitHub [code](https://github.com/klasharr/auto_boat)
+- http://www.artificialhumancompanions.com/structure-python-based-ros-package/
